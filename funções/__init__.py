@@ -1,4 +1,12 @@
-lista = [{'titulo': 'Vingadores: Ultimato', 'autor': 'John Stott', 'ano': 2023}, {'titulo': 'Oppenheimer', 'autor':'Christopher Nolan','ano':2023},{'titulo': 'John Wick', 'autor':'Derek Kolstad','ano':2014},{'titulo': 'O Poderoso Chefão', 'autor':'Mario Puzo','ano':1972},{'titulo': 'Não Olhe Para Cima ', 'autor':'Adam McKay','ano':2021}, {'titulo': 'Alerta Vermelho', 'autor': 'Rawson Marshall Thurber', 'ano': 2021}]
+lista = [
+        {'titulo': 'Dom Quixote', 'autor': 'Miguel de Cervantes', 'ano': 1605},
+        {'titulo': 'Guerra e Paz', 'autor':' Liev Tolstói','ano':1869},
+        {'titulo': 'A Montanha Mágica', 'autor':'Thomas Mann','ano':1924},
+        {'titulo': 'Cem Anos de Solidão', 'autor':'Gabriel García','ano':1967},
+        {'titulo': 'Ulisses ', 'autor':'James Joyce','ano':1922},
+        {'titulo': 'Em Busca do Tempo Perdido', 'autor': 'Marcel Proust', 'ano': 1913}
+]
+
 interface = ['Adicionar Livro', 'Listar Livros', 'Buscar Livro por Autor', 'Excluir Livro', 'Sair']
 livro = {}
 def linha():
